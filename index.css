@@ -32,3 +32,13 @@
     color: #0b0;
   }
 }
+
+[contenteditable=true]:empty:before{
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+  color:gray;
+}
+
+.hide {
+  display: none;
+}
